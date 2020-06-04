@@ -9,7 +9,7 @@
   bottom: 0;
   left: 0;
   padding: 30px;
-	font-family: Times New Roman;
+	font-family: 'Lato', sans-serif;
 }
 </style>
 

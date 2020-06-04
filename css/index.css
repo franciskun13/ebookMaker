@@ -4,7 +4,7 @@ body {
   background: -moz-linear-gradient(right, #bcfff8, #70f9eb);
   background: -o-linear-gradient(right, #bcfff8, #70f9eb);
   background: linear-gradient(to left, #bcfff8, #70f9eb);
-  font-family: Arial; 
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }

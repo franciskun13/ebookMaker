@@ -80,6 +80,7 @@ if(isset($_POST['btn-signup']))
 
 ?>
 <link href="css/index.css" rel="stylesheet" type="text/css" />
+<script src="https://kit.fontawesome.com/0b9fac015c.js" crossorigin="anonymous"></script>
 <script src="js/jquery.min.js"></script>
 
 <head>
@@ -101,7 +102,7 @@ if(isset($_POST['btn-signup']))
              register_error.style.display = "block";
             </script>
             <div class="alert alert-danger">
-               <i class="glyphicon glyphicon-warning-sign"></i> &nbsp; <?php echo $registration_error; ?>
+               <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <?php echo $registration_error; ?>
             </div>
         <?php
           }
@@ -116,7 +117,7 @@ if(isset($_POST['btn-signup']))
 
             </script>
             <div class="alert alert-info">
-              <i class="glyphicon glyphicon-log-in"></i> &nbsp; Successfully Registered
+              <i class="fa fa-check-circle" aria-hidden="true"></i> Account was successfully created
             </div>
         <?php
           }
@@ -149,7 +150,7 @@ if(isset($_POST['btn-signup']))
              login_error.style.display = "block";
           </script>
             <div class="alert alert-danger">
-               <i class="glyphicon glyphicon-warning-sign"></i> &nbsp; <?php echo $login_error; ?>
+               <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <?php echo $login_error; ?>
             </div>
         <?php
           }
@@ -163,7 +164,7 @@ if(isset($_POST['btn-signup']))
                login_error.style.color = "#24a048";
               </script>
             <div class="alert alert-info">
-              <i class="glyphicon glyphicon-log-in"></i> &nbsp; Successfully Registered
+              <i class="fa fa-check-circle" aria-hidden="true"></i> Account was successfully created
             </div>
         <?php
           }
@@ -184,7 +185,7 @@ if(isset($_POST['btn-signup']))
       <form method ="post" class="reset-form" id="reset-form">
         <input type="text" name="txt_uname_email" placeholder="Email Address" required/>
         <button type="submit" name="btn-reset" id="btn-reset">Forgot Password</button>
-        <p class="message"><a id="signin" href="#">Back to Sign in</a></p>
+        <p class="message"><a id="signin" href="index.php">Back to Sign in</a></p>
       </form>
     </div><!-- end of 'reset' -->
   </div> <!-- end of 'form' -->

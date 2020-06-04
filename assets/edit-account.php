@@ -72,7 +72,7 @@ if(isset($_POST['btn-info']))
   
   else{
 
-    $password_error = 'Current Password is incorrect';
+    $password_error = 'Current password is incorrect';
   }
  }
 
@@ -99,7 +99,7 @@ var account_settings = document.getElementById("account_settings");
              var edit_error = document.getElementById("edit-error");
              edit_error.style.display = "block";
             </script>
-               <i class="glyphicon glyphicon-warning-sign"></i> &nbsp; <?php echo $edit_error; ?>
+               <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <?php echo $edit_error; ?>
             
         <?php
           }
@@ -110,7 +110,7 @@ var account_settings = document.getElementById("account_settings");
              var edit_error = document.getElementById("edit-error");
              edit_error.style.display = "block";
             </script>
-               <i class="glyphicon glyphicon-warning-sign"></i> &nbsp; <?php echo $password_error; ?>
+               <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <?php echo $password_error; ?>
             
         <?php
           }
@@ -124,7 +124,7 @@ var account_settings = document.getElementById("account_settings");
              edit_success.style.color = "#24a048";
 
             </script>
-              <i class="glyphicon glyphicon-log-in"></i> &nbsp; Successfully Edited
+              <i class="fa fa-check-circle" aria-hidden="true"></i>  Account information was successfully updated
            
         <?php
           }

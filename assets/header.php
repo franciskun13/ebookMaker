@@ -2,13 +2,11 @@
 include ("session.php");
 ?>
 
-<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
 <style>
 
 body{
 
- font-family: calibri;
+  font-family: 'Lato', sans-serif;
 
 }
 
@@ -58,6 +56,9 @@ body{
 </style>
 
 <head>
+<script src="https://kit.fontawesome.com/0b9fac015c.js" crossorigin="anonymous"></script>
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="http://localhost/ebookmaker/favicon.ico" />
 </head>
 
